@@ -29,7 +29,7 @@ const Rooms = () => {
 
       <div className="grid md:grid-cols-3 gap-6">
         {filteredRooms.map((room, index) => (
-          <div key={index} className="bg-white p-6 rounded-xl shadow">
+          <div key={index} className="bg-white p-6 rounded-xl shadow-2xl shadow-amber-300">
             <h3 className="text-xl font-bold">{room.name}</h3>
             <p>₹{room.price}</p>
 
