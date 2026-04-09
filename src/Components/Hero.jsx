@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div className="h-screen bg-[url('https://images.unsplash.com/photo-1566073771259-6a8506099945')] bg-cover bg-center flex items-center justify-center text-white">
       <div className="bg-black/60 p-8 rounded-xl text-center">
-        <h1 className="text-4xl md:text-6xl font-bold">
+        <h1 className="text-4xl md:text-6xl font-bold text-yellow-400">
           Welcome to Anantha Hotel
         </h1>
         <p className="mt-4">Luxury Stay at Tonk Road, Laxmi Nagar</p>

@@ -35,7 +35,7 @@ const Rooms = () => {
 
             <button
               onClick={() => setSelectedRoom(room)}
-              className="mt-4 bg-yellow-400 px-4 py-2 rounded"
+              className="mt-4 bg-yellow-400 px-4 py-2 rounded "
             >
               Book Now
             </button>
